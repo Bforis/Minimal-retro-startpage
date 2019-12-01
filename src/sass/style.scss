@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  font-family: "VT323", monospace;
+}
+
+body {
+  background-color: #222222;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-size: 10px;
+  color: white;
+}
+
+#search-group input {
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 30px;
+}
+
+.box li {
+  display: inline;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.box li a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
