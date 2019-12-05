@@ -28,6 +28,10 @@ body {
   font-size: 20px;
   color: white;
 }
+.title:hover {
+  cursor: pointer;
+  color: red;
+}
 
 #search-group input {
   text-align: center;
