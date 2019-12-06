@@ -41,6 +41,10 @@ body {
   height: 30px;
 }
 
+#search-group input:active {
+  border: 1px solid red;
+}
+
 .box {
   margin-right: 40px;
   margin-top: 30px;
@@ -69,6 +73,7 @@ body {
 
 .box li a:active {
   color: rgba(255, 255, 255, 0.5);
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 1099px) {
